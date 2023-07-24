@@ -43,20 +43,3 @@ This project is open source and contributions are welcome. If you would like to 
 **License**
 
 This project is licensed under the MIT License.
-
-**Contact**
-
-If you have any questions or feedback, please contact the project maintainers at [email protected]
-
-**SEO Keywords**
-
-* ghost detection
-* paranormal investigation
-* EVP enhancement
-* paranormal activity
-* AI enhanced camera
-* deep learning
-* Python
-* open source
-
-I hope this README file is helpful. Please let me know if you have any other questions.
