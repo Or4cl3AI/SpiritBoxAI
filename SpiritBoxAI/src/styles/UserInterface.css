@@ -1,0 +1,62 @@
+/* UserInterface.css */
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #50a3a2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background: #50a3a2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-content {
+    float: left;
+    width: 70%;
+    padding: 20px;
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+    padding: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    background-color: #50a3a2;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #4b9392;
+}

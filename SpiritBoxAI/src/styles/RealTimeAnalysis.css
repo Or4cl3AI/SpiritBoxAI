@@ -1,0 +1,48 @@
+.realTimeAnalysisContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.realTimeAnalysisTitle {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.realTimeAnalysisContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.realTimeAnalysisItem {
+    flex: 0 0 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.realTimeAnalysisItem h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.realTimeAnalysisItem p {
+    font-size: 1em;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .realTimeAnalysisItem {
+        flex: 0 0 100%;
+    }
+}

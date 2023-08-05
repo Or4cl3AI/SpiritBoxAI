@@ -1,0 +1,49 @@
+.phenomenaAnalysisContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.phenomenaAnalysisTitle {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.phenomenaAnalysisContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.phenomenaCard {
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.phenomenaCardTitle {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.phenomenaCardDescription {
+    font-size: 1em;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .phenomenaCard {
+        flex: 0 0 100%;
+    }
+}

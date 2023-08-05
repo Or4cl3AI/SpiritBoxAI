@@ -1,0 +1,41 @@
+.dataInterpretationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.dataInterpretationTitle {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dataInterpretationContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dataInterpretationItem {
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.dataInterpretationItem h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.dataInterpretationItem p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #666;
+}
