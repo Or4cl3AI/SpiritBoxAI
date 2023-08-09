@@ -1,0 +1,47 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Run tests
+        run: npm test
+
+      - name: Deploy to Vercel
+        run: vercel --prod
+
+      - name: Enable verbose logging and trace information
+        run: |
+          echo "::set-env name=VERCEL_DEBUG::1"
+          echo "::set-env name=VERCEL_TRACE::1"
+          echo "Verbose logging and trace information enabled."
+
+      - name: Update error handling and print error log
+        run: |
+          if [ -f "error.log" ]; then
+            echo "Error log:"
+            cat error.log
+            echo "End of error log."
+          else
+            echo "No error log found."
+          fi
