@@ -27,6 +27,12 @@ jobs:
       - name: Run tests
         run: npm test
 
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      - name: Build with Vercel
+        run: vercel --prod
+
       - name: Deploy to Vercel
         run: vercel --prod
 
