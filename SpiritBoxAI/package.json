@@ -11,7 +11,7 @@
   },
   "build": "react-scripts build",
   "test": "react-scripts test",
-  "start": "react-scripts start"
+  "start": "react-scripts start",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yourusername/spiritboxai.git"
