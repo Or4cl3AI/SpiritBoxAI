@@ -9,6 +9,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "start": "react-scripts start"
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yourusername/spiritboxai.git"
