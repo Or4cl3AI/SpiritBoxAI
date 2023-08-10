@@ -9,19 +9,16 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "start": "react-scripts start",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/spiritboxai.git"
+    "url": "git+https://github.com/Or4cl3AI/SpiritBoxAI.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yourusername/spiritboxai/issues"
+    "url": "https://github.com/Or4cl3AI/SpiritBoxAI/issues"
   },
-  "homepage": "https://github.com/yourusername/spiritboxai#readme",
+  "homepage": "https://github.com/Or4cl3AI/SpiritBoxAI#readme",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
