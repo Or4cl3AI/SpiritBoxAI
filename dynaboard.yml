@@ -1,0 +1,73 @@
+- name: SpiritBoxAI Roadmap
+  columns:
+
+  - name: Backlog
+    tasks:
+    - Develop real-time audio/video analysis
+    - Build AI models for data interpretation
+    - Create customizable analysis for phenomena
+    - Integrate EMF monitoring capabilities
+    - Design intuitive UI with CRA
+    - Implement Flask backend API
+    - Enable historical data analysis
+
+  - name: Todo
+    tasks:
+    - Finalize real-time analysis requirements 
+    - Collect datasets for model training
+    - Define APIs for custom analysis
+    - Research open source EMF libraries
+    - Mock up key UI screens and flows
+    - Document backend endpoints
+    - Determine storage for historical data
+
+  - name: In Progress
+    tasks:
+    - Develop real-time audio/video algorithms
+    - Train interpretation models
+    - Build custom analysis features
+    - Connect EMF sensors to backend
+    - Implement UI with React
+    - Code Flask API endpoints
+    - Set up time series database
+
+  - name: Review
+    tasks:
+    - Perform accuracy testing
+    - Evaluate model inferences
+    - User test custom analysis
+    - Verify EMF data collection
+    - Conduct UI usability testing
+    - Load test Flask API
+    - Confirm historical data queries
+      
+  - name: Done
+    tasks:
+    - Refine algorithms based on testing
+    - Retrain models on more data
+    - Expand custom analysis capabilities
+    - Improve EMF reliability
+    - Incorporate UI feedback
+    - Optimize APIs for performance
+    - Analyze sample historical data
+
+- name: SpiritBoxAI Bugs
+  columns:
+
+  - name: Reported
+    tasks:
+    - Audio garbled in playback
+    - Incorrect EVP classification
+    - Custom recipes failing to save
+
+  - name: Investigating
+    tasks:
+    - Check encoding of saved audio
+    - Review model confusion matrix
+    - Retry saving recipes with verbosity
+
+  - name: Fixed
+    tasks:
+    - Fixed encoding for file saving
+    - Improved audio data augmentation
+    - Increased DB timeout to fix saves
